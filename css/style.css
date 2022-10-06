@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&family=Sriracha&display=swap');
+
+:root {
+    --padrao: Arial, Helvetica, sans-serif;
+    --font1: 'Passion One', Arial, Helvetica, Sans-serif;
+    --txt: 'Sriracha', Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-family: var(--padrao);
+    text-align: center;
+    margin: 0px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
+
+header > p {
+    margin: 0px;
+}
+
+main {
+    margin: auto;
+    max-width: 1450px;
+    border: 3px solid black;
+}
+
+main > header {
+    text-align: center;
+}
+
+h1 {
+    font-family: var(--font1);
+    font-weight: 700;
+    font-size: 3.2em;
+    margin: 10px;
+}
+
+p {
+    font-weight: lighter;
+    font-size: 1.5em;
+}
+
+a {
+    color: white;
+    font-weight: bolder;
+}
+
+a:hover {
+    color: red;
+}
+
+section {
+    font-family: var(--txt);
+    padding: 10vh 30px 10vh 30px;
+    background-color: white; 
+    text-align: left;
+    line-height: 2em;
+}
+
+section > p {
+    font-weight: 1000;
+    line-height: 2em;
+    text-align: left;
+}
+
+#flor {
+    
+    background: black url(../imagens/background001.jpg) right center no-repeat fixed;
+}
+
+#livro {
+    background: black url(../imagens/background002.jpg) center center no-repeat fixed;
+}
+
+pre {
+    font-family: var(--txt);
+    font-weight: 1000;
+    line-height: 2em;
+    font-size: 1.5em;
+    text-align: left;
+}
+
+.imagem {
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.566);
+    background-size: cover;
+}
+
+.imagem > p{
+    background-color: rgba(0, 0, 0, 0.600);
+    color: white;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 10px;
+    text-shadow: 2px 2px 0px black;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer > p {
+    margin: 0px;
+    font: normal normal 1.2em Arial, Helvetica, Sans-serif; 
+}
